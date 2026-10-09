@@ -1,0 +1,28 @@
+{
+  "input": "data\\documents\\sample1.jpeg",
+  "output": "outputs\\sample1_enhanced.png",
+  "mode": "balanced",
+  "before": {
+    "width": 1050,
+    "height": 1600,
+    "channels": 3,
+    "mean_brightness": 214.1187,
+    "intensity_std": 40.175,
+    "laplacian_variance": 1130.1266,
+    "blur_indicator": "not_flagged_as_blurry",
+    "brightness_indicator": "bright",
+    "contrast_indicator": "contrast_not_flagged_low"
+  },
+  "after": {
+    "width": 1050,
+    "height": 1600,
+    "channels": 3,
+    "mean_brightness": 197.2455,
+    "intensity_std": 48.0242,
+    "laplacian_variance": 2020.9774,
+    "blur_indicator": "not_flagged_as_blurry",
+    "brightness_indicator": "bright",
+    "contrast_indicator": "contrast_not_flagged_low"
+  },
+  "note": "Metrics are indicators, not a guarantee of readability or OCR accuracy."
+}
