@@ -1,4 +1,4 @@
-# ImageClarity
+# ImageEnhancement
 
 A classical Computer Vision project for enhancing document images and assessing their visual quality using OpenCV. The application provides image quality analysis, document enhancement, batch processing, and comparison reports through a simple command-line interface.
 
@@ -235,6 +235,20 @@ Possible future enhancements include:
 - Automatic document classification
 - Web application interface
 - PDF document support
+
+---
+
+## 📸 Sample Results
+
+The following example demonstrates the enhancement performed by **ImageClarity**.
+
+### Document Enhancement Comparison
+
+<p align="center">
+  <img src="docs/Screenshots/sample1_comparison.png" alt="Document Enhancement Comparison" width="900"/>
+</p>
+
+The comparison above shows the original document image alongside the enhanced version after applying denoising, CLAHE-based contrast enhancement, and image sharpening.
 
 ---
 
